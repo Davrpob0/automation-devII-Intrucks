@@ -1,57 +1,17 @@
-Prework – Automation Developer II (30 min antes de la entrevista)
+# PRUEBA CORTA – Automation Developer II (InTrucks)
 
-Este prework tiene como objetivo ver tu forma de estructurar una solución en Python.
+Su objetivo es validar habilidades fundamentales antes de continuar con una prueba mas profunda.
 
+⏳ Duración total: **30 a 40 minutos**  
+📌 Componentes:
+1. Algoritmia con Python  
+2. Consumo de API  
+3. Concepto esencial de React  
+4. Uso básico de Git & GitHub  
 
-✅ Instrucciones
+---
 
-Crea un repositorio en tu propio GitHub con el nombre:
-automation-developer-prework-[TU-NOMBRE]
-(Ejemplo: automation-developer-prework-Paula-Granda)
+## 📘 Estructura
 
-Copia la siguiente estructura mínima:
-
-root/
-  ├── python/
-  │     └── ejercicio_prework_csv_json.py
-  ├── input/
-  │     └── sample.csv   (usa el que te compartimos o crea uno de ejemplo)
-  └── output/
-        (aquí se generará data.json)
-
-
-Implementa en python/ejercicio_prework_csv_json.py una solución en Python que:
-
-Lea el archivo input/sample.csv
-
-Procese las columnas: name, email, city
-
-Genere un archivo output/data.json con una lista de objetos como:
-
-[
-  {
-    "name": "John Doe",
-    "email": "john@example.com",
-    "city": "Medellín"
-  },
-  ...
-]
-
-
-Incluya manejo básico de errores, por ejemplo:
-
-Cuando el archivo no exista
-
-Cuando falte alguna de las columnas esperadas (name, email, city)
-
-Tiempo estimado: 20–30 minutos.
-
-
-Al finalizar:
-
-Asegúrate de que tu script se pueda ejecutar sin errores.
-
-Sube los cambios a tu repositorio en GitHub.
-
-Envíanos el link de tu repositorio antes de la entrevista.
+Cada ejercicio está en su carpeta correspondiente:
 
