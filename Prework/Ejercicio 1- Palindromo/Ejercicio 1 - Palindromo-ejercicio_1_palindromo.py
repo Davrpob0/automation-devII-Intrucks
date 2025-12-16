@@ -14,8 +14,10 @@ def es_palindromo(texto: str) -> bool:
         return False
 
     normalizado = re.sub(r"[^A-Za-z0-9]", "", texto).lower()
-    return normalizado == normalizado[::-1]
-
+    if normalizado == normalizado[::-1]:
+        return ("Es un palíndromo")
+    else:
+        return ("No es un palíndromo")
 
 if __name__ == "__main__":
     texto = input("Escribe el texto a evaluar: ").strip()
